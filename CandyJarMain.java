@@ -9,7 +9,10 @@ public class CandyJarMain {
         c1.refill(15);
         c2.refill(20);
         System.out.println("C1: ");
+        c1.printState();
+        
         System.out.println("C2: ");
+        c2.printState();
     
 
     }
