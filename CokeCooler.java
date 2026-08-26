@@ -17,6 +17,10 @@ public class CokeCooler {
         amount += amt;
     }
 
+    public int cokeCount(){
+        return amount;
+    }
+    
     public void printState(){
         System.out.println("Num of Cokes: " + amount);
     }
