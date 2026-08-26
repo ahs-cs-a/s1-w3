@@ -5,14 +5,17 @@ public class CandyJar{
     }
 
     public CandyJar(int a){
-        numCandy = a
+        numCandy = a;
     }
 
     public void eat(int nom){
-        numCandy -= nom
+        numCandy -= nom;
     }
 
     public void fill(int add){
-        numCandy += add
+        numCandy += add;
+    }
+    public void print(){
+        System.out.println("number of candies: " + numCandy);
     }
 }
