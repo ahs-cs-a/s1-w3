@@ -4,6 +4,6 @@ public class ClassroomMain {
             Classroom c1 = new Classroom("Morris", 20, 20);
 
             c.setDesks(30);
-            c1.printState();
+            System.out.println(c1);
 }
 }
