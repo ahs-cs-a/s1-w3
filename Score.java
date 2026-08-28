@@ -1,7 +1,7 @@
 public class Score {
     private int num;
     public Score(){
-        num = 100;
+        num = 50;
     }
 
     public Score(int a){
