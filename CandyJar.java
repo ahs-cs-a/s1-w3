@@ -18,4 +18,6 @@ public class CandyJar{
     public void print(){
         System.out.println("number of candies: " + numCandy);
     }
+
+    
 }
